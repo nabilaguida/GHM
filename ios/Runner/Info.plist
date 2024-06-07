@@ -5,21 +5,10 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<key>NSPhotoLibraryUsageDescription</key>
-    <string>Your app needs access to the photo library to allow you to select images for (explain the purpose, e.g., profile picture).</string>
-    <key>NSCameraUsageDescription</key>
-    <string>Your app needs access to the camera to allow you to (explain the purpose, e.g., take pictures of plants).</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Your app needs access to the microphone to allow you to record audio for (explain the purpose, e.g., video recordings).</string>
 	<string>Greenhousemaintenance</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>sms</string>
-      <string>tel</string>
-    </array>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
@@ -56,5 +45,32 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>sms</string>
+      <string>tel</string>
+    </array>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Your app needs access to the photo library to allow you to select images for (explain the purpose, e.g., profile picture).</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Your app needs access to the camera to allow you to (explain the purpose, e.g., take pictures of plants).</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Your app needs access to the microphone to allow you to record audio for (explain the purpose, e.g., video recordings).</string>
+
+
+
+	<key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>app-1-902293505425-ios-08ea6ccd9a3692d47e4630</string>
+        </array>
+      </dict>
+    </array>
 </dict>
 </plist>
