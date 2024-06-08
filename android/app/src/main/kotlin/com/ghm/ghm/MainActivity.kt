@@ -1,4 +1,4 @@
-package com.greenhousemaintenance.greenhousemaintenance
+package com.ghm.ghm
 
 import io.flutter.embedding.android.FlutterActivity
 

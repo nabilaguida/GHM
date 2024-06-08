@@ -70,6 +70,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '902293505425',
     projectId: 'greenhousetechnology-8014f',
     storageBucket: 'greenhousetechnology-8014f.appspot.com',
-    iosBundleId: 'com.greenhousemaintenance.greenhousemaintenance',
+    iosBundleId: 'com.ghm.ghm',
   );
 }
