@@ -107,8 +107,8 @@ class _OtpScreenState extends State<OtpScreen> {
                         spreadRadius: 8,
                         blurRadius: 12)
                   ])),
-                  androidSmsAutofillMethod: AndroidSmsAutofillMethod.none,
-                  listenForMultipleSmsOnAndroid: true,
+                  // androidSmsAutofillMethod: AndroidSmsAutofillMethod.none,
+                  // listenForMultipleSmsOnAndroid: true,
                 ),
               ),
             ),
