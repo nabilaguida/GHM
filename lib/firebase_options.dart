@@ -66,10 +66,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyC5WZ-Rp-UPyfHRigwHD5VhRjrSixRhvBM',
-    appId: '1:902293505425:ios:08ea6ccd9a3692d47e4630',
+    appId: '1:902293505425:ios:92f4c211b5ca80ec7e4630',
     messagingSenderId: '902293505425',
     projectId: 'greenhousetechnology-8014f',
     storageBucket: 'greenhousetechnology-8014f.appspot.com',
     iosBundleId: 'com.ghm.ghm',
   );
+
 }
